@@ -1,0 +1,80 @@
+body{
+    background-image: linear-gradient(to left, #e378e1, #a49dff, #4ab9ff, #00cdff, #12daeb); 
+    font-family: 'Cormorant Garamond', serif;
+    min-height:100vh;
+    font-weight:600;
+    font-size:18px;
+}
+.user_list{
+    
+    margin-top:20px;
+}
+.user_container{
+    background-color:rgb(207, 232, 236);
+    border-radius:10px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    gap:15px;
+    width:70%;
+    margin:20px auto;
+    padding:10px 5px;
+    
+    transition: all 0.2s;
+    
+}
+.user_container:hover{
+    transform:scale(1.1);
+}
+.user-name{
+    font-size:20px;
+    font-weight:700;
+    margin:10px 0px;
+}
+.user_container:hover .user-name{
+    color:red;
+}
+.user-avatar{
+    width:75px;
+    height:75px;
+    border-radius:50%;
+}
+.editing_box{
+    border:1px solid black;
+}
+.delete,.edit{
+    padding:5px;
+    font-size:14px;
+    width:60px;
+}
+.user-form{
+    padding:10px;
+}
+.add-user-name{
+    margin:10px 0px;
+    
+}
+.add-user-avatar{
+    margin-bottom:10px;
+}
+.edit-user-form{
+    display:none;
+    margin-top:20px;
+}
+button{
+    background-color:purple;
+    color:white;
+    border-color:purple;
+    border-radius:5px;
+}
+input{
+    border-radius:5px;
+    padding:5px;
+}
+.add{
+    padding:5px;
+    width:50px;
+}
+.ename,.eavatar{
+    margin:5px 0px;
+}
